@@ -30,7 +30,7 @@
 
 .mainContainer {
   width: 100%;
-  background-color: black;
+  background-color: var(--main-clr);
 }
 
 .heading {

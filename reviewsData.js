@@ -27,4 +27,11 @@ export const reviewsData = [
     name: "Siam",
     status: "Kid",
   },
+  {
+    id: 5,
+    number: 5,
+    text: "“BLACKFIT’s 90 day challenge put me back in the gym on a consistent basis. I eat clean and listen to the advice of coach on every workout”",
+    name: "Tahsin",
+    status: "Unknown",
+  },
 ];

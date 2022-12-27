@@ -1,0 +1,102 @@
+.footer {
+  width: 100%;
+  padding: 30px 0 20px;
+  background-color: var(--main-clr);
+  color: white;
+  border-top: 0.5px solid lightgray;
+}
+
+.footerWrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.img {
+  width: 220px;
+  margin-bottom: 25px;
+}
+
+.footerLeft ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.footerLeft ul li small {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.footerLeft ul li p {
+  font-size: 1.1rem;
+  margin-top: 7px;
+  font-weight: 500;
+  color: lightgrey;
+}
+
+.iconsEl {
+  margin-top: 20px !important;
+  font-size: 1.2rem !important;
+}
+
+.icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+.icon {
+  width: 30px;
+  color: lightgray;
+  transition: 0.4s;
+}
+
+.icon:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footerMid {
+  margin-top: 10px;
+}
+
+.footerMid h2 {
+  font-size: 1.5rem;
+}
+
+.blog {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.blogImg {
+  width: 100px !important;
+}
+
+.blog h3 {
+  font-size: 1rem;
+  color: lightgrey;
+}
+
+.blog p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: gray;
+}
+
+.footerRight {
+  margin-top: 10px;
+}
+.footerRight h2 {
+  font-size: 1.5rem;
+}
+
+.footerRight p {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: lightgrey;
+}
