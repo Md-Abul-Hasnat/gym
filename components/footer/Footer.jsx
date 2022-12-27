@@ -89,7 +89,7 @@ const Footer = () => {
             Start training now to stay fit and healthy all year round!
           </p>
 
-          <p className={styles.iconsEl}>Our Socials:</p>
+          <h2 className={styles.iconsEl}>OUR SOCIALS</h2>
           <div className={styles.icons}>
             <FontAwesomeIcon className={styles.icon} icon={faFacebook} />
             <FontAwesomeIcon className={styles.icon} icon={faTwitter} />
@@ -97,6 +97,9 @@ const Footer = () => {
           </div>
         </article>
       </div>
+      <p className={styles.copyright}>
+        © All rights reserved by WebDevHasnat | Sylhet
+      </p>
     </section>
   );
 };

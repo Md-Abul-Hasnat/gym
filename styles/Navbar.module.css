@@ -99,7 +99,7 @@
     right: -100%;
     text-align: center;
     z-index: 100;
-    background-color: red;
+    background-color: black;
   }
 
   .navMenu.active {
