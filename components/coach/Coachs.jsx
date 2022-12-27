@@ -25,19 +25,19 @@ const Coachs = () => {
     },
     {
       num: 5,
-      name: "James",
+      name: "Shakib",
     },
     {
       num: 6,
-      name: "James",
+      name: "Rakib",
     },
     {
       num: 8,
-      name: "James",
+      name: "Tahmid",
     },
     {
       num: 10,
-      name: "James",
+      name: "Tahsin",
     },
   ];
 
@@ -50,7 +50,30 @@ const Coachs = () => {
       </p>
       <div className={styles.coachsWrapper}>
         <Swiper
-          slidesPerView={4}
+          style={{
+            "--swiper-pagination-color": "#fff",
+            "--swiper-pagination-bullet-inactive-color": "#575555",
+            "--swiper-pagination-bullet-inactive-opacity": "1",
+          }}
+          slidesPerView="auto"
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 30,
+            },
+            400: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            600: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            960: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+          }}
           spaceBetween={10}
           loop={true}
           loopFillGroupWithBlank={true}

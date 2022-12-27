@@ -7,6 +7,11 @@ const Pricing = () => {
   return (
     <section className={styles.pricing}>
       <h1 className="heading">PROGRAM PRICING</h1>
+      <p className="headText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
+        sit amet.
+      </p>
       <div className={styles.pricingWrapper}>
         <article>
           <FontAwesomeIcon className={styles.icons} icon={faDumbbell} />;

@@ -1,0 +1,85 @@
+.reviews {
+  width: 100%;
+  padding: 130px 0;
+  text-align: center;
+}
+
+.reviewsWrapper {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.images {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slide {
+  width: 100%;
+  color: white;
+  margin-top: 30px;
+}
+
+.slide p {
+  margin-top: 45px;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.job {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: gray;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+  .reviewsWrapper {
+    width: 75%;
+  }
+  .slide p {
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .reviewsWrapper {
+    width: 80%;
+  }
+  .slide p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .reviewsWrapper {
+    width: 90%;
+  }
+  .slide p {
+    font-size: 1.1rem;
+    margin-top: 25px;
+  }
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .job {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .slide p {
+    font-size: 1rem;
+  }
+  .images {
+    width: 100px;
+    height: 100px;
+  }
+}

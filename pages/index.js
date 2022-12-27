@@ -1,5 +1,6 @@
 import Coachs from "../components/coach/Coachs";
 import Pricing from "../components/pricing/Pricing";
+import Review from "../components/review/Review";
 import TextImages from "../components/text-images/TextImages";
 import Video from "../components/video/Video";
 import WhyChooseUs from "../components/whyChooseUs/WhyChooseUs";
@@ -27,6 +28,7 @@ export default function Home() {
         <WhyChooseUs />
         <Pricing />
         <Coachs />
+        <Review />
       </main>
     </section>
   );

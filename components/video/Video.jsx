@@ -6,13 +6,13 @@ const Video = () => {
 
   return (
     <section className={styles.videoContainer}>
+      <h1 className="heading">WHO WE ARE</h1>
+      <p className="headText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+        suspendisse ultrices.
+      </p>
       <div className={styles.videoWrapper}>
-        <h1 className="heading">WHO WE ARE</h1>
-        <p className="headText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices.
-        </p>
         <iframe
           src="https://www.youtube.com/embed/y-W9DUEMwh4"
           frameBorder="0"
@@ -23,7 +23,7 @@ const Video = () => {
       <div className={styles.imagesContainer}>
         {arr.map((num) => {
           return (
-            <div className={styles.imageDiv}>
+            <div key={num} className={styles.imageDiv}>
               <Image
                 src={`/img/images${num}.jpg`}
                 width={200}

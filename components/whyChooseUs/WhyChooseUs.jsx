@@ -3,14 +3,13 @@ import styles from "../../styles/WhyChooseUs.module.css";
 const WhyChooseUs = () => {
   return (
     <section className={styles.chooseUs}>
+      <h1 className="heading">WHY CHOOSE US</h1>
+      <p className="headText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua consectetur
+        adipiscing
+      </p>
       <div className={styles.chooseUsWrapper}>
-        <h1 className="heading">WHY CHOOSE US</h1>
-        <p className="headText">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur
-          adipiscing
-        </p>
-
         <div className={styles.stats}>
           <article>
             <h1>12</h1>

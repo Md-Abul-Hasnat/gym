@@ -1,12 +1,12 @@
 .chooseUs {
   width: 100%;
   padding: 150px 0;
+  text-align: center;
 }
 
 .chooseUsWrapper {
   width: 90%;
   margin: 0 auto;
-  text-align: center;
 }
 
 .stats {
