@@ -1,0 +1,116 @@
+.pricing {
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  background-color: var(--light-gray);
+  background-image: linear-gradient(
+    black,
+    var(--light-gray),
+    var(--light-gray),
+    black
+  );
+}
+
+.pricingWrapper {
+  width: 80%;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  place-items: center;
+}
+
+.pricingWrapper article {
+  border: 1px solid gray;
+  padding: 20px 50px;
+  transition: 0.5s;
+}
+
+.pricingWrapper article:hover {
+  background-color: black;
+}
+
+.list {
+  color: gray;
+  list-style: none;
+  padding: 12px 0;
+  font-size: 1rem;
+}
+
+.price {
+  color: white;
+  font-size: 2.5rem;
+  padding: 20px 0 10px;
+  font-family: var(--heading-font);
+}
+
+.duration {
+  font-size: 0.8rem;
+  display: block;
+  color: white;
+}
+
+.icons {
+  width: 50px;
+  color: white;
+  margin: 10px 0;
+}
+
+.btnPrice {
+  display: block;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: -2px 0 10px;
+}
+
+.overline {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 1130px) {
+  .pricingWrapper article {
+    padding: 20px 30px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .pricingWrapper {
+    width: 90%;
+  }
+  .btnPrice {
+    padding: 8px 5px;
+    font-size: 0.7rem;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .list {
+    padding: 12px 0;
+    font-size: 0.9rem;
+  }
+  .price {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pricingWrapper {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    row-gap: 25px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .pricingWrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pricingWrapper {
+    width: 80%;
+    grid-template-columns: 1fr;
+  }
+  .pricingWrapper article {
+    padding: 20px 50px;
+  }
+}
