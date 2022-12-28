@@ -1,0 +1,160 @@
+.trainers {
+  width: 100%;
+  padding: 80px 0;
+  color: white;
+}
+
+.trainersWrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 28% 68%;
+  gap: 4%;
+}
+
+.left {
+  position: relative;
+}
+
+.left .coachDiv {
+  position: relative;
+  width: 100%;
+  margin-top: 25px;
+}
+.left div h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  z-index: 2;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.othertrainer {
+  font-size: 1.5rem;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.top h1 {
+  font-size: 2.5rem;
+  font-family: var(--heading-font);
+}
+.top h2 {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(83, 82, 82);
+}
+.top h2 span {
+  font-size: 1.1rem;
+  color: gray;
+}
+.top p {
+  margin-top: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: gray;
+}
+
+.top .right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bottom p {
+  margin-top: 80px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 500;
+  border-left: 2px solid white;
+  padding-left: 20px;
+  font-family: var(--heading-font);
+}
+
+.video {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .trainersWrapper {
+    width: 92%;
+    grid-template-columns: 22% 75%;
+    gap: 3%;
+  }
+  .top h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .trainersWrapper {
+    width: 85%;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+  }
+
+  .trainersWrapper > .left {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .trainersWrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .trainersWrapper {
+    width: 85%;
+  }
+  .top {
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+  }
+  .top .right img {
+    height: 300px;
+  }
+  .bottom p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .top h1 {
+    font-size: 1.5rem;
+  }
+  .top h2 {
+    font-size: 0.9rem;
+  }
+  .top .right img {
+    height: 170px;
+  }
+  .top p {
+    font-size: 0.9rem;
+  }
+  .bottom p {
+    font-size: 0.9rem;
+    padding-left: 10px;
+  }
+  .video {
+    height: 250px;
+  }
+}

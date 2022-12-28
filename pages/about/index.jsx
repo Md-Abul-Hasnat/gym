@@ -9,7 +9,7 @@ const index = () => {
   const aboutHead = {
     imgNumber: 1,
     heading: "About Us",
-    prevLink: "home",
+    prevLink: "Home",
   };
 
   return (
