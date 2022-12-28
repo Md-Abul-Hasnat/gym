@@ -11,8 +11,8 @@ const SubHead = ({ data }) => {
         <Image
           className="subHead-img"
           src={`/img/bg${data.imgNumber}.jpg`}
-          width={1000}
-          height={1000}
+          layout="fill"
+          priority={true}
         />
         <h1 className="subHeading"> {data.heading} </h1>
         <div>
