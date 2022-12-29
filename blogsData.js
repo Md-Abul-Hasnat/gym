@@ -34,7 +34,7 @@ Be sure to eat proper protein during exercise programs. Also, make sure you get 
     id: 3,
     title: "Bradley Simmonds",
     author: "Bradley",
-    date: "November 13, 2021",
+    date: "November 1, 2021",
     imgUrl:
       "https://www.futurefit.co.uk/wp-content/uploads/2021/12/Bradley_Simmonds-768x512.jpeg",
     body: `Bradley Simmonds is a personal trainer and ex-professional footballer.
