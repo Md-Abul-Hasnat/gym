@@ -18,7 +18,7 @@ const SubHead = ({ data }) => {
         <div>
           <Link href={"/"}> {data.prevLink} </Link>
           <FontAwesomeIcon className="icon" icon={faAnglesRight} />
-          <Link href={"about"}>{data.heading} </Link>
+          <Link href={`${data.heading}`}>{data.heading} </Link>
         </div>
       </div>
       <div className="overlay"></div>

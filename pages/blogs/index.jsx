@@ -61,6 +61,8 @@ const index = ({ data }) => {
   );
 };
 
+// this is a test
+
 export default index;
 
 export async function getStaticProps() {

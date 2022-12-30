@@ -58,7 +58,7 @@ const SingleBlog = ({ data, blogs }) => {
     </section>
   );
 };
-
+// this is a test
 export default SingleBlog;
 
 export async function getStaticPaths() {
