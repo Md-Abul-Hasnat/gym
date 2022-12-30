@@ -61,7 +61,7 @@ const SingleBlog = ({ data, blogs }) => {
 export default SingleBlog;
 
 export async function getStaticPaths() {
-  const res = await fetch(`/api/blogs`);
+  const res = await fetch(`http://localhost:3000/api/blogs`);
   const data = await res.json();
 
   const paths = data.map((obj) => {
@@ -75,10 +75,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch(`/api/blogs/${context.params.blogid}`);
+  const res = await fetch(
+    `http://localhost:3000/api/blogs/${context.params.blogid}`
+  );
   const data = await res.json();
   // get all blogs
-  const response = await fetch(`/api/blogs`);
+  const response = await fetch(`http://localhost:3000/api/blogs`);
   const blogs = await response.json();
 
   return {
