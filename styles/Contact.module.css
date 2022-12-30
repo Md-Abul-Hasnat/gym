@@ -1,0 +1,178 @@
+.googleMap {
+  padding: 50px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+.contact {
+  padding: 40px 0 60px;
+  width: 100%;
+  color: white;
+}
+
+.contactWrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3%;
+}
+
+.contactLeft {
+  width: 100%;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.contactLeft ul li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.contactLeft ul li small {
+  color: gray;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.contactLeft ul li p {
+  font-size: 1.2rem;
+  margin-top: 7px;
+  font-weight: 600;
+  color: lightgrey;
+}
+
+.contactRight h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: var(--heading-font);
+}
+
+.contactRight input {
+  padding: 15px 10px;
+  margin-top: 15px;
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.contactRight ::placeholder {
+  font-size: 1rem;
+}
+
+.contactRight textarea {
+  padding: 15px 10px;
+  margin-top: 15px;
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.contactRight textarea::placeholder {
+  font-size: 1.2rem;
+}
+
+.btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px 35px;
+  color: black;
+  background-color: white;
+  font-weight: 600;
+  border: none;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: rgb(29, 151, 29);
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .googleMap {
+    width: 85%;
+  }
+  .map {
+    height: 400px;
+  }
+  .contactWrapper {
+    width: 90%;
+    grid-template-columns: 34% 63%;
+    gap: 3%;
+  }
+  .contactLeft {
+    padding-left: 0px;
+  }
+  .contactLeft ul li {
+    margin-bottom: 20px;
+  }
+  .contactLeft ul li small {
+    font-size: 1rem;
+  }
+  .contactLeft ul li p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contactWrapper {
+    width: 85%;
+    grid-template-columns: 1fr;
+    gap: 0;
+    row-gap: 20px;
+  }
+  .contactLeft {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contactRight h1 {
+    font-size: 2rem;
+  }
+
+  .contactRight input {
+    font-size: 0.9rem;
+  }
+
+  .contactRight textarea {
+    font-size: 0.9rem;
+    height: 200px;
+  }
+  .contactRight ::placeholder {
+    font-size: 1rem;
+  }
+
+  .contactRight textarea::placeholder {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .googleMap {
+    width: 90%;
+  }
+  .map {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .map {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .btn {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+}

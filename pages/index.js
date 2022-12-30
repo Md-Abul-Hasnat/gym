@@ -33,7 +33,3 @@ export default function Home() {
     </section>
   );
 }
-
-// demo : http://preview.themeforest.net/item/blackfit-fitness-gym-club-website-template/full_screen_preview/26360712?_ga=2.159271482.1242023732.1671943007-966242516.1669181821
-
-// search page : https://themeforest.net/search/gym%20website

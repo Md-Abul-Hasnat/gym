@@ -5,7 +5,7 @@ import styles from "../../styles/Blogs.module.css";
 
 const index = ({ data }) => {
   const blogsHead = {
-    imgNumber: 2,
+    imgNumber: 4,
     heading: "Blogs",
     prevLink: "Home",
   };
@@ -60,8 +60,6 @@ const index = ({ data }) => {
     </section>
   );
 };
-
-// this is a test
 
 export default index;
 

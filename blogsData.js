@@ -4,7 +4,7 @@ export const blogsData = [
     title: "Muscle Growth",
     author: "Lauren",
     date: "November 23, 2022",
-    imgUrl: "https://mygreatness.com/wp-content/uploads/2021/02/image-5-15.png",
+    imgUrl: "https://wallpaperaccess.com/full/804826.jpg",
     body: `Is not building strength and muscle the same thing?
     Yes and no is the short answer. It takes strength to build muscle over time, and it takes muscle to build strength. What differs between the two is that muscle growth occurs best in the interval of 6-12 repetitions. Sometimes you can train with even more repetitions for increased muscle mass.
     To build strength and explosiveness, it is different. There you should get your body used to extreme load for a short period, and then you have to train close to your maximum lift; the repetitions will therefore only be between 1-6.
@@ -69,7 +69,7 @@ Be sure to eat proper protein during exercise programs. Also, make sure you get 
     author: "Lauren",
     date: "November 13, 2022",
     imgUrl:
-      "https://mygreatness.com/wp-content/uploads/2022/03/AdobeStock_270222935-scaled-e1647937456827.jpeg",
+      "https://image-cdn.essentiallysports.com/wp-content/uploads/2_Dwayne-Johnson-1-740x460.jpg",
     body: `The annual Memorial Gander competition was held earlier today in Chiasso, Switzerland, where Alice D’Amato of Italy dominated in the women’s field while Illia Kovtun of Ukraine fought back from a rough start on floor to win the men’s title by just under a tenth.
 
 D’Amato got off to a strong start on vault, where her Yurchenko double earned a 14.1, more than half a point ahead of the rest of the field. She continued with a great set on bars, showing mostly only minor form issues throughout, and though she did struggle a bit with the front full pirouette, finishing it at horizontal, she recovered well from that to hit the double front with just a small hop to earn a 14.25.

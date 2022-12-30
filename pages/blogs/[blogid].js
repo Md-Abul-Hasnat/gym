@@ -5,7 +5,7 @@ import styles from "../../styles/Blogs.module.css";
 
 const SingleBlog = ({ data, blogs }) => {
   const blogsHead = {
-    imgNumber: 2,
+    imgNumber: 4,
     heading: "Blogs",
     prevLink: "Home",
   };
@@ -58,7 +58,6 @@ const SingleBlog = ({ data, blogs }) => {
     </section>
   );
 };
-// this is a test
 export default SingleBlog;
 
 export async function getStaticPaths() {

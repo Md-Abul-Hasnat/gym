@@ -2,7 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["mygreatness.com", "www.futurefit.co.uk"],
+    domains: [
+      "mygreatness.com",
+      "www.futurefit.co.uk",
+      "wallpaperaccess.com",
+      "image-cdn.essentiallysports.com",
+    ],
   },
 };
 

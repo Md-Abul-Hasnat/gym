@@ -98,7 +98,7 @@ const Footer = () => {
         </article>
       </div>
       <p className={styles.copyright}>
-        © All rights reserved by WebDevHasnat | Sylhet
+        © All rights reserved by WebDevHasnat | Bangladesh
       </p>
     </section>
   );
