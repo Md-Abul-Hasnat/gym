@@ -64,7 +64,7 @@ const index = ({ data }) => {
 export default index;
 
 export async function getStaticProps() {
-  const res = await fetch(`http://localhost:3000/api/blogs`);
+  const res = await fetch(`https://gymbd.netlify.app/api/blogs`);
   const data = await res.json();
 
   return {

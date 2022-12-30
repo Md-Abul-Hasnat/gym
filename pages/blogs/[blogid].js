@@ -76,11 +76,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context) {
   const res = await fetch(
-    `http://localhost:3000/api/blogs/${context.params.blogid}`
+    `https://gymbd.netlify.app/api/blogs/${context.params.blogid}`
   );
   const data = await res.json();
   // get all blogs
-  const response = await fetch(`http://localhost:3000/api/blogs`);
+  const response = await fetch(`https://gymbd.netlify.app/api/blogs`);
   const blogs = await response.json();
 
   return {
