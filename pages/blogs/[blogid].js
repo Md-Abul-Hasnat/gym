@@ -61,7 +61,7 @@ const SingleBlog = ({ data, blogs }) => {
 export default SingleBlog;
 
 export async function getStaticPaths() {
-  const res = await fetch(`http://localhost:3000/api/blogs`);
+  const res = await fetch(`/api/blogs`);
   const data = await res.json();
 
   const paths = data.map((obj) => {
