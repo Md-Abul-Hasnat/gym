@@ -75,10 +75,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch(`api/blogs/${context.params.blogid}`);
+  const res = await fetch(`/api/blogs/${context.params.blogid}`);
   const data = await res.json();
   // get all blogs
-  const response = await fetch(`api/blogs`);
+  const response = await fetch(`/api/blogs`);
   const blogs = await response.json();
 
   return {
