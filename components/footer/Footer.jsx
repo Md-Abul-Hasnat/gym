@@ -19,6 +19,7 @@ const Footer = () => {
               className={styles.img}
               width={50}
               height={50}
+              alt="logo"
             />
           </Link>
 
@@ -50,6 +51,7 @@ const Footer = () => {
               className={styles.blogImg}
               width={100}
               height={70}
+              alt="blog"
             />
             <div className={styles.title}>
               <h3>4578 Marmora Road, Glasgow</h3>
@@ -62,6 +64,7 @@ const Footer = () => {
               className={styles.blogImg}
               width={100}
               height={70}
+              alt="blog"
             />
             <div className={styles.title}>
               <h3>4578 Marmora Road, Glasgow</h3>
@@ -75,6 +78,7 @@ const Footer = () => {
               className={styles.blogImg}
               width={100}
               height={70}
+              alt="blog"
             />
             <div className={styles.title}>
               <h3>BLACKFIT – fitness health center where your</h3>

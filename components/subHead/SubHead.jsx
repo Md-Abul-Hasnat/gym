@@ -13,6 +13,7 @@ const SubHead = ({ data }) => {
           src={`/img/bg${data.imgNumber}.jpg`}
           layout="fill"
           priority={true}
+          alt="subhead image"
         />
         <h1 className="subHeading"> {data.heading} </h1>
         <div>

@@ -38,7 +38,7 @@ const Review = () => {
                   className={styles.images}
                   width={100}
                   height={100}
-                  alt="Coach"
+                  alt="review"
                 />
                 <p>{review.text}</p>
                 <h2 className={styles.name}>{review.name} </h2>

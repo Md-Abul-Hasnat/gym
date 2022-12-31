@@ -24,6 +24,7 @@ const Trainers = () => {
                 src={"/img/images1.jpg"}
                 height={300}
                 width={500}
+                alt="trainer"
               />
               <h1>Johnathan</h1>
               <div className="overlay"></div>
@@ -34,6 +35,7 @@ const Trainers = () => {
                 src={"/img/images2.jpg"}
                 height={300}
                 width={500}
+                alt="trainer"
               />
               <h1>Michel</h1>
               <div className="overlay"></div>
@@ -44,6 +46,7 @@ const Trainers = () => {
                 src={"/img/images3.jpg"}
                 height={300}
                 width={500}
+                alt="trainer"
               />
               <h1>Hasan</h1>
               <div className="overlay"></div>
@@ -73,7 +76,12 @@ const Trainers = () => {
                 </p>
               </div>
               <div className={styles.right}>
-                <Image src={"/img/trainer-1.jpg"} width={500} height={500} />
+                <Image
+                  src={"/img/trainer-1.jpg"}
+                  width={500}
+                  height={500}
+                  alt="trainer"
+                />
               </div>
             </div>
             <div className={styles.bottom}>
