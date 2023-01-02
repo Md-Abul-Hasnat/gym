@@ -7,6 +7,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import { blogsData } from "../../blogsData";
 
 const Footer = () => {
   return (
@@ -45,46 +46,27 @@ const Footer = () => {
         </article>
         <article className={styles.footerMid}>
           <h2>BLOG POSTS</h2>
-          <div className={styles.blog}>
-            <Image
-              src={"/img/images1.jpg"}
-              className={styles.blogImg}
-              width={100}
-              height={70}
-              alt="blog"
-            />
-            <div className={styles.title}>
-              <h3>4578 Marmora Road, Glasgow</h3>
-              <p>22 july 2022</p>
-            </div>
-          </div>
-          <div className={styles.blog}>
-            <Image
-              src={"/img/images1.jpg"}
-              className={styles.blogImg}
-              width={100}
-              height={70}
-              alt="blog"
-            />
-            <div className={styles.title}>
-              <h3>4578 Marmora Road, Glasgow</h3>
-              <p>22 july 2022</p>
-            </div>
-          </div>
-
-          <div className={styles.blog}>
-            <Image
-              src={"/img/images1.jpg"}
-              className={styles.blogImg}
-              width={100}
-              height={70}
-              alt="blog"
-            />
-            <div className={styles.title}>
-              <h3>BLACKFIT – fitness health center where your</h3>
-              <p>22 july 2022</p>
-            </div>
-          </div>
+          {blogsData.slice(0, 3).map((blog) => {
+            return (
+              <Link
+                href={`/blogs/${blog.id}`}
+                key={blog.id}
+                className={styles.blog}
+              >
+                <Image
+                  src={blog.imgUrl}
+                  className={styles.blogImg}
+                  width={100}
+                  height={70}
+                  alt="blog"
+                />
+                <div className={styles.title}>
+                  <h3>{blog.title} </h3>
+                  <p> {blog.date} </p>
+                </div>
+              </Link>
+            );
+          })}
         </article>
         <article className={styles.footerRight}>
           <h2>ABOUS US</h2>
