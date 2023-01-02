@@ -15,7 +15,7 @@ const SingleBlog = () => {
   useEffect(() => {
     const obj = blogsData.find((blog) => blog.id === Number(id));
     setData(obj);
-  }, []);
+  }, [id]);
 
   const blogsHead = {
     imgNumber: 4,
