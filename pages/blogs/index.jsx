@@ -2,13 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import SubHead from "../../components/subHead/SubHead";
 import styles from "../../styles/Blogs.module.css";
+import { blogsData } from "../../blogsData";
 
-const index = ({ data }) => {
+const index = () => {
   const blogsHead = {
     imgNumber: 4,
     heading: "Blogs",
     prevLink: "Home",
   };
+  const data = blogsData;
 
   const firstBlog = data[3];
 
@@ -62,14 +64,3 @@ const index = ({ data }) => {
 };
 
 export default index;
-
-export async function getStaticProps() {
-  const res = await fetch(`http://localhost:3000/api/blogs`);
-  const data = await res.json();
-
-  return {
-    props: {
-      data,
-    },
-  };
-}
